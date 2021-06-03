@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+* {
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+.geral {
+    width : 100vw;
+    text-align: center;
+    position: relative;
+    top: 3vw;
+    
+    .info-search {
+
+        h1 {
+            font-size: 3vw;
+            color: #c9c9c9;
+            padding: 1vw 0;
+        }
+    
+    }
+    input {
+        width: fit-content;
+        text-align: center;
+        outline: none;
+        font-size:1vw;
+        border-radius: 10px;
+        color: #222231;
+        color: #FFF;
+        background: linear-gradient(to bottom right, #ffffff 0%, #ccccff 100%);
+   
+        background: rgba( 0, 0, 0, 0.55 );
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 3.5px );
+        -webkit-backdrop-filter: blur( 3.5px );
+        border-radius: 10px;
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
+    
+        &::-webkit-input-placeholder {
+            color: #c9c9c9;
+         }
+         &:-moz-placeholder {
+            color: #c9c9c9;  
+         }
+         &::-moz-placeholder {
+            color: #c9c9c9;  
+         }
+         &:-ms-input-placeholder {  
+            color: #c9c9c9;  
+         }
+    }
+
+   .teste {
+       width: 75vw;
+       margin: 0 auto;
+        
+        .grid {
+            width: 100%;
+            margin-top: 3vw;
+            display: grid;
+            grid-template-columns: auto auto auto auto auto;
+            gap: 1vw;
+            
+        }
+        .card-movie{
+            margin: 0 auto;
+            padding: 1vw;
+            text-align: center;
+            width: auto !important;
+        
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            
+            background: rgba( 255, 255, 255, 0.50 );
+            box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+            backdrop-filter: blur( 3.5px );
+            -webkit-backdrop-filter: blur( 3.5px );
+            border-radius: 10px;
+            border: 1px solid rgba( 255, 255, 255, 0.22 );
+            
+            
+            img {
+                border-radius: 10px;
+                margin: 0 auto 1vw auto;
+                width: 100%;
+            }
+
+            .card-body {
+                display: flex;
+                justify-content: space-between;
+                flex-direction: column;
+                
+                .card-title {
+                    font-size: 1vw !important;
+                }
+                a {   
+                    font-size: 1vw !important;
+                }
+            }
+          
+        }
+   }
+}
+
+@media screen and (max-width: 767px) {
+
+    .geral {
+
+        .info-search {
+            margin-top: 5vh;
+
+            h1 {
+            font-size: 5vw;
+            }
+        }
+
+        input {
+            font-size: 4.5vw;
+            margin-bottom: 5vh;
+        }
+
+        .teste{
+            overflow-x: scroll;
+            position: relative;
+            width: 90vw;
+
+            .grid {
+                display: flex !important;
+                width: 90vw !important;
+                justify-content: flex-start;
+
+                .card-movie {
+                    margin-right: 1em;
+                    min-width: 68%;
+
+                    .card-img {
+                        height: 70%;
+
+                        img {
+                            height: 100%
+                        }
+                    }
+
+                    .card-body {
+                        .card-title {
+                            font-size: 5vw !important;
+                        }
+                        .btn {
+                            font-size: 5vw !important;
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+}

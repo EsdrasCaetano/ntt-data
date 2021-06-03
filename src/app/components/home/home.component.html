@@ -1,0 +1,26 @@
+<section class="geral">
+    <div class="info-search">
+        <h1>Pesquise pelo seu filme</h1>
+    </div>
+        
+    <input type="text" placeholder="Pesquisar Filme" (keyup)="getFilme($event)">
+
+
+    <div class="teste">
+
+        <div class="grid">
+
+            <div class="card card-movie" *ngFor="let filme of movies" style="width: 18rem;">
+                <div class="card-img">
+                    
+                    <img [src]='filme.Poster' alt="capa" class="card-img-top">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">{{ filme.Title }}</h5>
+                    <a [routerLink]="['details', filme.imdbID]" class="btn btn-light" >Informações</a>
+                </div>
+            </div>
+            
+         </div>
+    </div>
+</section>
