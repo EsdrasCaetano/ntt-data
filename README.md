@@ -40,6 +40,13 @@ Execute `ng serve` para executar a versão de desenvolvimento. Depois acesse `ht
 - [Bootstrap](https://getbootstrap.com/)
 - [SCSS](https://sass-lang.com/)
 
+### Features
+
+- [x] Pesquisa de filmes
+- [x] Detalhes do filme
+- [ ] Salvar favoritos
+- [ ] Sugestão de filmes
+
 
 
 ## Mais informações e ajuda
