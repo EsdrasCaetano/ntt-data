@@ -1,27 +1,56 @@
-# Nttdataproj
+# NTT Data Project
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.2.
+Este projeto foi criado com o [Angular CLI](https://github.com/angular/angular-cli) versão 12.0.2.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+ [Acessar demonstração](https://nttdata-proj.netlify.app/).
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+## Escopo
+- Criar um SPA que busque informações sobre um título de filme pesquisado.
+- Para isso você deverá criar uma conta para gerar sua ApiKey no seguinte serviço:
+http://www.omdbapi.com/
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+## Tecnologias
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- [Angular CLI 12.0.2](https://angular.io/)
+- [Bootstrap](https://getbootstrap.com/)
+- [SCSS](https://sass-lang.com/)
 
-## Further help
+## Iniciando
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### Clone este repositório
+$ git clone <https://github.com/EsdrasCaetano/ntt-data>
+
+### Acesse a pasta do projeto no terminal/cmd
+$ cd ntt-data
+
+
+
+### Instale as dependências
+`$ npm install`
+</br>
+
+
+
+### Execute a aplicação 
+Execute `ng serve` para executar a versão de desenvolvimento. Depois acesse `http://localhost:4200/`.
+
+
+
+
+### 🛠 Tecnologias
+
+As seguintes ferramentas foram usadas na construção do projeto:
+
+- [React](https://pt-br.reactjs.org/)
+- [Axios](https://github.com/axios/axios/)
+- [React-router-dom](https://reactrouter.com/web/guides/quick-start/)
+
+
+## Mais informações e ajuda
+Para obter mais ajuda sobre o uso do Angular CLI `ng help` consulte a página [Visão geral e referência de comandos do Angular CLI](https://angular.io/cli).
